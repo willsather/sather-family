@@ -9,8 +9,11 @@ export default function PeoplePage() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const people = getPersons();
+  const sortedPeople = people.sort((a, b) => {
+    return a.firstName.localeCompare(b.firstName);
+  });
 
-  const filteredPeople = people.filter((person) =>
+  const filteredPeople = sortedPeople.filter((person) =>
     `${person.firstName} ${person.lastName}`
       .toLowerCase()
       .includes(searchTerm.toLowerCase())

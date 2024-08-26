@@ -1,6 +1,5 @@
 "use client";
 
-import * as React from "react";
 import { useState } from "react";
 
 import { cn } from "@/utils";
@@ -15,7 +14,7 @@ import {
 } from "@/ui/Command";
 import { Popover, PopoverContent, PopoverTrigger } from "@/ui/Popover";
 import { Panel, useReactFlow } from "@xyflow/react";
-import { ArrowDownIcon, ArrowUpIcon, CheckIcon } from "@radix-ui/react-icons";
+import { ArrowDownIcon, CheckIcon } from "@radix-ui/react-icons";
 import { Family, familySchema } from "@/family";
 
 interface FamilyPanelProps {
