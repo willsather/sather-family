@@ -1,32 +1,38 @@
-import React, { useMemo } from "react";
+"use client";
+
 import { ReactFlow, Background, Controls } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
-import { generateFamilyTree } from "./generate";
-import { Person } from "@/family";
+import { Node, Edge } from "@xyflow/react";
+import { useState } from "react";
+import { Family } from "@/family";
+import FamilyPanel from "@/app/(pages)/tree/FamilyPanel";
 
 interface FamilyTreeProps {
-  persons: Person[];
+  sather: {
+    nodes: Node[];
+    edges: Edge[];
+  };
+  juve: {
+    nodes: Node[];
+    edges: Edge[];
+  };
 }
 
-export default function FamilyTree({ persons }: FamilyTreeProps) {
-  const { nodes, edges } = useMemo(
-    () => generateFamilyTree(persons),
-    [persons]
-  );
+export default function FamilyTree(props: FamilyTreeProps) {
+  const [family, setFamily] = useState<Family>("Sather");
 
   return (
-    <div style={{ width: "100%", height: "90vh" }}>
-      <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        fitView
-        fitViewOptions={{ padding: 0.5 }}
-        panOnDrag
-        zoomOnScroll
-      >
-        <Background />
-        <Controls />
-      </ReactFlow>
-    </div>
+    <ReactFlow
+      nodes={family === "Sather" ? props.sather.nodes : props.juve.nodes}
+      edges={family === "Sather" ? props.sather.edges : props.juve.edges}
+      fitView
+      fitViewOptions={{ padding: 0.5 }}
+      panOnDrag
+      zoomOnScroll
+    >
+      <FamilyPanel setFamily={setFamily} />
+      <Background />
+      <Controls />
+    </ReactFlow>
   );
 }

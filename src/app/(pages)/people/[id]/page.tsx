@@ -61,7 +61,7 @@ export default function PersonPage({ params }: { params?: { id?: string } }) {
             <h3 className="mb-3 mt-8 text-xl font-semibold text-gray-900">
               Children
             </h3>
-            <div className="flex gap-2 overflow-scroll">
+            <div className="flex gap-2 overflow-auto py-4">
               {children.map((child) => (
                 <PersonCard key={child.id} person={child} />
               ))}

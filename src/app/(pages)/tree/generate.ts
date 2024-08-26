@@ -4,7 +4,7 @@ import { Person } from "@/family";
 
 const NODE_WIDTH = 150;
 const NODE_HEIGHT = 60;
-const SPOUSE_SPACING = NODE_WIDTH + 20; // Spacing between spouses
+const SPOUSE_SPACING = NODE_WIDTH + 20; // space between spouses
 
 const createGraphLayout = (nodes: Node[], edges: Edge[]) => {
   const g = new dagre.graphlib.Graph();

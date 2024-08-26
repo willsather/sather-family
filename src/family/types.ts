@@ -3,6 +3,9 @@ import { z } from "zod";
 export const countrySchema = z.union([z.literal("US"), z.literal("NO")]);
 export type Country = z.infer<typeof countrySchema>;
 
+export const familySchema = z.union([z.literal("Sather"), z.literal("Juve")]);
+export type Family = z.infer<typeof familySchema>;
+
 export const sexSchema = z.union([z.literal("Male"), z.literal("Female")]);
 export type Sex = z.infer<typeof sexSchema>;
 

@@ -1,13 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import family from "@/family/family.json";
 import { ClipboardCopyIcon } from "@radix-ui/react-icons";
+import { getPersons } from "@/family";
 
 export default function DataPage() {
   const [copied, setCopied] = useState(false);
 
-  const formattedJson = JSON.stringify(family, null, 2);
+  const persons = getPersons();
+
+  const formattedJson = JSON.stringify(persons, null, 2);
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(formattedJson).then(() => {

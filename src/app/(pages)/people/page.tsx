@@ -1,11 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { getPersons } from "@/family";
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
-import { getCountryEmoji } from "@/utils/getCountryEmoji";
-import { getMonth } from "@/utils/getMonth";
 import PersonCard from "@/ui/PersonCard";
 
 export default function PeoplePage() {

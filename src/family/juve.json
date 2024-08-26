@@ -1,0 +1,597 @@
+[
+  {
+    "id": "ole-johnson-juve",
+    "firstName": "Ole Johnson",
+    "lastName": "Juve",
+    "sex": "Male",
+    "birth": {
+      "month": 6,
+      "year": 1817,
+      "country": "NO"
+    },
+    "marriages":  [{
+      "year": 1850,
+      "spouse": "gunhild-olavsdatter-kragnes-juve"
+    }],
+    "children": [
+      "jorand-juve",
+      "mina-kragnes-juve",
+      "anne-gurine-juve",
+      "kari-mearin-olsdatter-juve",
+      "olena-juve",
+      "tilda-juve",
+      "mary-juve",
+      "nicholas-o-juve",
+      "john-o-juve"
+    ],
+    "death": {
+      "month": 12,
+      "year": 1885,
+      "country": "US"
+    }
+  },
+  {
+    "id": "gunhild-olavsdatter-kragnes-juve",
+    "firstName": "Gunhild Olavsdatter",
+    "lastName": "Juve (Kragnes)",
+    "sex": "Female",
+    "birth": {
+      "month": 9,
+      "year": 1828,
+      "country": "NO"
+    },
+    "marriages":  [{
+      "year": 1850,
+      "spouse": "ole-johnson-juve"
+    }],
+    "children": [
+      "jorand-juve",
+      "mina-kragnes-juve",
+      "anne-gurine-juve",
+      "kari-mearin-olsdatter-juve",
+      "olena-juve",
+      "tilda-juve",
+      "mary-juve",
+      "nicholas-o-juve",
+      "john-o-juve"
+    ],
+    "death": {
+      "month": 6,
+      "year": 1922,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "jorand-juve",
+    "firstName": "Jorand",
+    "lastName": "Juve",
+    "sex": "Female",
+    "birth": {
+      "month": 3,
+      "year": 1851,
+      "country": "NO"
+    },
+    "death": {
+      "month": 3,
+      "year": 1932,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mina-kragnes-juve",
+    "firstName": "Mina Kragnes",
+    "lastName": "Juve",
+    "sex": "Female",
+    "birth": {
+      "month": 3,
+      "year": 1857,
+      "country": "US"
+    },
+    "death": {
+      "month": 10,
+      "year": 1882,
+      "country": "US"
+    }
+  },
+  {
+    "id": "anne-gurine-juve",
+    "firstName": "Anne Gurine",
+    "lastName": "Juve",
+    "sex": "Female",
+    "birth": {
+      "month": 9,
+      "year": 1859,
+      "country": "US"
+    },
+    "death": {
+      "month": 4,
+      "year": 1894,
+      "country": "US"
+    }
+  },
+  {
+    "id": "kari-mearin-olsdatter-juve",
+    "firstName": "Kari Mearin Olsdatter",
+    "lastName": "Juve",
+    "sex": "Female",
+    "birth": {
+      "month": 12,
+      "year": 1862,
+      "country": "US"
+    },
+    "death": {
+      "month": 12,
+      "year": 1908,
+      "country": "US"
+    }
+  },
+  {
+    "id": "olena-juve",
+    "firstName": "Olena",
+    "lastName": "Juve",
+    "sex": "Female",
+    "birth": {
+      "month": 6,
+      "year": 1864,
+      "country": "US"
+    },
+    "death": {
+      "month": 1,
+      "year": 1936,
+      "country": "US"
+    }
+  },
+  {
+    "id": "tilda-juve",
+    "firstName": "Tilda S.",
+    "lastName": "Juve",
+    "sex": "Female",
+    "birth": {
+      "month": 1,
+      "year": 1867,
+      "country": "US"
+    },
+    "death": {
+      "month": 10,
+      "year": 1958,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mary-juve",
+    "firstName": "Mary",
+    "lastName": "Juve",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": 1873,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": 1901,
+      "country": "US"
+    }
+  },
+  {
+    "id": "nicholas-o-juve",
+    "firstName": "Nicholas O.",
+    "lastName": "Juve",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": 1874,
+      "country": "US"
+    },
+    "death": {
+      "month": 5,
+      "year": 1946,
+      "country": "US"
+    }
+  },
+  {
+    "id": "john-o-juve",
+    "firstName": "John O.",
+    "lastName": "Juve",
+    "sex": "Male",
+    "birth": {
+      "month": 9,
+      "year": 1854,
+      "country": "US"
+    },
+    "marriages":  [{
+      "year": 1881,
+      "spouse": "anna-karine-juve"
+    }],
+    "children": [
+      "alden-oberlin-juve"
+    ],
+    "death": {
+      "month": 4,
+      "year": 1884,
+      "country": "US"
+    }
+  },
+  {
+    "id": "anna-karine-juve",
+    "firstName": "Anna \"Karine\" Karine",
+    "lastName": "Juve (Kassenborg)",
+    "sex": "Female",
+    "birth": {
+      "month": 6,
+      "year": 1858,
+      "country": "US"
+    },
+    "marriages":  [{
+      "year": 1881,
+      "spouse": "john-o-juve"
+    }],
+    "children": [
+      "alden-oberlin-juve"
+    ],
+    "death": {
+      "month": 12,
+      "year": 1945,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "alden-oberlin-juve",
+    "firstName": "Alden Oberlin",
+    "lastName": "Juve",
+    "sex": "Male",
+    "birth": {
+      "month": 11,
+      "year": 1882,
+      "country": "US"
+    },
+    "marriages":  [{
+      "year": -1,
+      "spouse": "edna-elenora-juve"
+    }],
+    "children": [
+      "john-peder-juve",
+      "arthur-james-juve",
+      "gordon-juve"
+    ],
+    "death": {
+      "month": 6,
+      "year": 1956,
+      "country": "US"
+    }
+  },
+  {
+    "id": "edna-elenora-juve",
+    "firstName": "Edna Elenora",
+    "lastName": "Juve (Boen)",
+    "sex": "Female",
+    "birth": {
+      "month": 7,
+      "year": 1889,
+      "country": "US"
+    },
+    "marriages":  [{
+      "year": -1,
+      "spouse": "alden-oberlin-juve"
+    }],
+    "children": [
+      "john-peder-juve",
+      "arthur-james-juve",
+      "gordon-juve"
+    ],
+    "death": {
+      "month": 4,
+      "year": 1981,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "john-peder-juve",
+    "firstName": "John Peder",
+    "lastName": "Juve",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "arthur-james-juve",
+    "firstName": "Arthur \"James\" James",
+    "lastName": "Juve",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "gordon-juve",
+    "firstName": "Gordon",
+    "lastName": "Juve",
+    "sex": "Male",
+    "birth": {
+      "month": 4,
+      "year": 1914,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1940,
+        "spouse": "mildred-juve"
+      }
+    ],
+    "children": [
+      "genelle-sather",
+      "diane-rasmussen"
+    ],
+    "death": {
+      "month": 11,
+      "year": 1992,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mildred-juve",
+    "firstName": "Mildred",
+    "lastName": "Juve (Morken)",
+    "sex": "Female",
+    "birth": {
+      "month": 4,
+      "year": 1919,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1940,
+        "spouse": "gordon-juve"
+      }
+    ],
+    "children": [
+      "genelle-sather",
+      "diane-rasmussen"
+    ],
+    "death": {
+      "month": 7,
+      "year": 2002,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "diane-rasmussen",
+    "firstName": "Diane",
+    "lastName": "Rasmussen (Juve)",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "genelle-sather",
+    "firstName": "Genelle",
+    "lastName": "Sather (Juve)",
+    "sex": "Male",
+    "birth": {
+      "month": 4,
+      "year": 1941,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1960,
+        "spouse": "allen-sather"
+      }
+    ],
+    "children": [
+      "brenda-sather",
+      "ryan-sather",
+      "michael-sather"
+    ]
+  },
+  {
+    "id": "allen-sather",
+    "firstName": "Allen",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 4,
+      "year": 1942,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1960,
+        "spouse": "genelle-sather"
+      }
+    ],
+    "children": [
+      "brenda-sather",
+      "ryan-sather",
+      "michael-sather"
+    ]
+  },
+
+  {
+    "id": "brenda-sather",
+    "firstName": "Brenda",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "ryan-sather",
+    "firstName": "Ryan",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "sonia-sather"
+      }
+    ],
+    "children": [
+      "lauren-sather",
+      "rachel-sather",
+      "matthew-sather"
+    ]
+  },
+  {
+    "id": "sonia-sather",
+    "firstName": "Sonia",
+    "lastName": "Sather (Albertson)",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "ryan-sather"
+      }
+    ],
+    "children": [
+      "lauren-sather",
+      "rachel-sather",
+      "matthew-sather"
+    ]
+  },
+  {
+    "id": "michael-sather",
+    "firstName": "Michael",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 1,
+      "year": 1970,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1994,
+        "spouse": "leigha-sather"
+      }
+    ],
+    "children": [
+      "william-sather",
+      "benjamin-sather",
+      "jonathan-sather"
+    ]
+  },
+  {
+    "id": "leigha-sather",
+    "firstName": "Leigha",
+    "lastName": "Sather (Sparks)",
+    "sex": "Female",
+    "birth": {
+      "month": 8,
+      "year": 1971,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1994,
+        "spouse": "michael-sather"
+      }
+    ],
+    "children": [
+      "william-sather",
+      "benjamin-sather",
+      "jonathan-sather"
+    ]
+  },
+  {
+    "id": "lauren-sather",
+    "firstName": "Lauren",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": 12,
+      "year": 1996,
+      "country": "US"
+    }
+  },
+  {
+    "id": "rachel-sather",
+    "firstName": "Rachel",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": 12,
+      "year": 1996,
+      "country": "US"
+    }
+  },
+  {
+    "id": "matthew-sather",
+    "firstName": "Matthew",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 12,
+      "year": 1996,
+      "country": "US"
+    }
+  },
+  {
+    "id": "william-sather",
+    "firstName": "William",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 1,
+      "year": 2000,
+      "country": "US"
+    }
+  },
+  {
+    "id": "benjamin-sather",
+    "firstName": "Benjamin",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 5,
+      "year": 2002,
+      "country": "US"
+    }
+  },
+  {
+    "id": "jonathan-sather",
+    "firstName": "Jonathan",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 5,
+      "year": 2004,
+      "country": "US"
+    }
+  }
+]
