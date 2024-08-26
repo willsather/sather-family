@@ -1,5 +1,6 @@
 import {
   ActivityLogIcon,
+  CheckboxIcon,
   InfoCircledIcon,
   MixIcon,
   PersonIcon,
@@ -36,6 +37,14 @@ export const pages = [
     icon: InfoCircledIcon,
     description: "Learn about this project",
     color: "from-blue-400 to-blue-600",
+    size: "md:col-span-1 md:row-span-1",
+  },
+  {
+    name: "To Do",
+    href: "/todo",
+    icon: CheckboxIcon,
+    description: "What things still need to be done",
+    color: "from-yellow-400 to-orange-600",
     size: "md:col-span-1 md:row-span-1",
   },
 ];

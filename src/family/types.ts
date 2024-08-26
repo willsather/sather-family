@@ -31,5 +31,6 @@ export const personSchema = z.object({
     )
     .optional(),
   children: z.array(z.string()).optional(),
+  image: z.string().optional(),
 });
 export type Person = z.infer<typeof personSchema>;
