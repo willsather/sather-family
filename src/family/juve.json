@@ -1,5 +1,58 @@
 [
   {
+    "id": "andreas-gulbrandson-kassenborg",
+    "firstName": "Andreas Gulbrandson",
+    "lastName": "Kassenborg",
+    "sex": "Male",
+    "birth": {
+      "month": 12,
+      "year": 1836,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": 1857,
+        "spouse": "tone-kragnes"
+      }
+    ],
+    "children": [
+      "anna-karine-juve",
+      "mina-augusta-morken"
+    ],
+    "death": {
+      "month": 11,
+      "year": 1913,
+      "country": "US"
+    }
+  },
+  {
+    "id": "tone-kragnes",
+    "firstName": "Tone",
+    "lastName": "Kragnes",
+    "sex": "Female",
+    "birth": {
+      "month": 10,
+      "year": 1834,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": 1857,
+        "spouse": "andreas-gulbrandson-kassenborg"
+      }
+    ],
+    "children": [
+      "anna-karine-juve",
+      "mina-augusta-morken"
+    ],
+    "death": {
+      "month": 5,
+      "year": 1921,
+      "country": "US"
+    }
+  },
+
+  {
     "id": "ole-johnson-juve",
     "firstName": "Ole Johnson",
     "lastName": "Juve",
@@ -288,6 +341,237 @@
     }
   },
 
+
+  {
+    "id": "torgrim-olson-morken",
+    "firstName": "Torgrim Olson",
+    "lastName": "Morken",
+    "sex": "Male",
+    "birth": {
+      "month": 10,
+      "year": 1846,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": 1876,
+        "spouse": "mina-augusta-morken"
+      }
+    ],
+    "children": [
+      "martin-adolf-morken"
+    ],
+    "death": {
+      "month": 10,
+      "year": 1908,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mina-augusta-morken",
+    "firstName": "Mina Augusta",
+    "lastName": "Morken (Kassenborg)",
+    "sex": "Female",
+    "birth": {
+      "month": 2,
+      "year": 1860,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1876,
+        "spouse": "torgrim-olson-morken"
+      }
+    ],
+    "children": [
+      "martin-adolf-morken"
+    ],
+    "death": {
+      "month": 3,
+      "year": 1937,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "simons-s-bergseng",
+    "firstName": "Simon S.",
+    "lastName": "Bergseng",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": 1846,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": 1873,
+        "spouse": "mathea-hansdatter"
+      }
+    ],
+    "children": [
+      "emma-morken",
+      "hans-bergseng",
+      "bergine-bergseng",
+      "eva-bergseng",
+      "otto-simensen-bergseng"
+    ],
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mathea-hansdatter",
+    "firstName": "Mathea",
+    "lastName": "Hansdatter",
+    "sex": "Female",
+    "birth": {
+      "month": 10,
+      "year": 1847,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": 1873,
+        "spouse": "simons-s-bergseng"
+      }
+    ],
+    "children": [
+      "emma-morken",
+      "hans-bergseng",
+      "bergine-bergseng",
+      "eva-bergseng",
+      "otto-simensen-bergseng"
+    ],
+    "death": {
+      "month": -1,
+      "year": 1889,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "martin-adolf-morken",
+    "firstName": "Martin Adolf",
+    "lastName": "Morken",
+    "sex": "Male",
+    "birth": {
+      "month": 4,
+      "year": 1885,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1913,
+        "spouse": "emma-morken"
+      }
+    ],
+    "children": [
+      "mildred-juve",
+      "sid-morken",
+      "alvin-morken"
+    ],
+    "death": {
+      "month": 4,
+      "year": 1977,
+      "country": "US"
+    }
+  },
+  {
+    "id": "emma-morken",
+    "firstName": "Emma",
+    "lastName": "Morken (Bergseng)",
+    "sex": "Female",
+    "birth": {
+      "month": 8,
+      "year": 1886,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1913,
+        "spouse": "martin-adolf-morken"
+      }
+    ],
+    "children": [
+      "mildred-juve",
+      "sid-morken",
+      "alvin-morken"
+    ],
+    "death": {
+      "month": 11,
+      "year": 1972,
+      "country": "US"
+    }
+  },
+  {
+    "id": "hans-bergseng",
+    "firstName": "Hans",
+    "lastName": "Bergseng",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "bergine-bergseng",
+    "firstName": "Bergine",
+    "lastName": "Bergseng",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "eva-bergseng",
+    "firstName": "Eva",
+    "lastName": "Bergseng",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "otto-simensen-bergseng",
+    "firstName": "Otto Simensen",
+    "lastName": "Bergseng",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+
+
   {
     "id": "john-peder-juve",
     "firstName": "John Peder",
@@ -369,6 +653,38 @@
     "death": {
       "month": 7,
       "year": 2002,
+      "country": "US"
+    }
+  },
+  {
+    "id": "sid-morken",
+    "firstName": "Sid",
+    "lastName": "Morken",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "alvin-morken",
+    "firstName": "Alvin",
+    "lastName": "Morken",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
       "country": "US"
     }
   },
