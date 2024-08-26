@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sather Family
+
+This is a [Next.js](https://nextjs.org/) to represent and digitize the Sather family tree.
 
 ## Getting Started
 

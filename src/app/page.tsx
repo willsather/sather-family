@@ -1,20 +1,43 @@
-export default function Home() {
+import Link from "next/link";
+import { pages } from "@/app/(navigation)/data";
+
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="my-8 font-bold">Next.js Starter</h1>
+    <div className="min-h-screen bg-white p-4 sm:p-6 lg:p-8">
+      <div className="mx-auto max-w-7xl">
+        <h1 className="mb-8 text-center text-4xl font-extrabold text-gray-900 sm:mb-12 sm:text-5xl">
+          Sather Family
+        </h1>
 
-      <ul className="my-8 list-disc">
-        <li>Nextjs App Router</li>
-        <li>Typescript</li>
-        <li>Tailwind</li>
-        <li>Eslint</li>
-        <li>Prettier</li>
-      </ul>
-
-      <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200  lg:p-4 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
-        Edit&nbsp;
-        <code className="font-mono font-bold">src/app/page.tsx</code>
-      </p>
-    </main>
+        <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
+          {pages.map((page) => (
+            <Link
+              key={page.name}
+              href={page.href}
+              className={`${page.size} flex`}
+            >
+              <div
+                className={`bg-gradient-to-br ${page.color} hover:scale-102 flex w-full transform 
+                               flex-col justify-between rounded-xl p-4
+                               shadow-lg transition duration-300 ease-in-out hover:rotate-1 hover:shadow-2xl sm:p-6`}
+              >
+                <div className="mb-2 flex items-center sm:mb-4">
+                  <page.icon
+                    className="mr-2 h-6 w-6 text-white sm:h-8 sm:w-8"
+                    aria-hidden="true"
+                  />
+                  <h2 className="text-2xl font-bold text-white sm:text-3xl">
+                    {page.name}
+                  </h2>
+                </div>
+                <p className="mt-2 text-base text-white text-opacity-90 sm:text-lg">
+                  {page.description}
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }

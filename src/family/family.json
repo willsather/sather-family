@@ -1,0 +1,934 @@
+[
+  {
+    "id": "ole-pederson-sather",
+    "firstName": "Ole",
+    "lastName": "Pederson Sæther",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": 1784,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "kirsti-mondsdatter-lier-sather"
+      }
+    ],
+    "children": [
+      "agnete-olsadatter-sather",
+      "maria-olsadatter-sather",
+      "anne-olsadatter-sather",
+      "oline-olsadatter-sather",
+      "pernille-olsadatter-sather",
+      "peder-olsen-sather"
+    ],
+    "death": {
+      "month": -1,
+      "year": 1826,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "kirsti-mondsdatter-lier-sather",
+    "firstName": "Kirsti",
+    "lastName": "Mondsdatter Lier Sæther",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": 1792,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "ole-pederson-sather"
+      },
+      {
+        "year": -1,
+        "spouse": "johannes-monsen-aastad"
+      }
+    ],
+    "children": [
+      "alis-johannesdatte-aastad-sather",
+      "mathias-johannes-aastad-sather",
+      "christian-johannesen-aastad-sather",
+
+      "agnete-olsadatter-sather",
+      "maria-olsadatter-sather",
+      "anne-olsadatter-sather",
+      "oline-olsadatter-sather",
+      "pernille-olsadatter-sather",
+      "peder-olsen-sather"
+    ],
+    "death": {
+      "month": -1,
+      "year": 1874,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "johannes-monsen-aastad",
+    "firstName": "Johannes",
+    "lastName": "Monsen Aastad",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": 1798,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "kirsti-mondsdatter-lier-sather"
+      }
+    ],
+    "children": [
+      "alis-johannesdatte-aastad-sather",
+      "mathias-johannes-aastad-sather",
+      "christian-johannesen-aastad-sather"
+    ],
+    "death": {
+      "month": -1,
+      "year": 1889,
+      "country": "NO"
+    }
+  },
+
+  {
+    "id": "agnete-olsadatter-sather",
+    "firstName": "Agnete",
+    "lastName": "Olsadatter Sæther",
+    "sex": "Female",
+    "birth": {
+      "month": 1,
+      "year": 1812,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "maria-olsadatter-sather",
+    "firstName": "Maria",
+    "lastName": "Olsadatter Sæther",
+    "sex": "Female",
+    "birth": {
+      "month": 8,
+      "year": 1814,
+      "country": "NO"
+    },
+    "death": {
+      "month": -1,
+      "year": 1895,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "anne-olsadatter-sather",
+    "firstName": "Anne",
+    "lastName": "Olsadatter Sæther",
+    "sex": "Female",
+    "birth": {
+      "month": 1,
+      "year": 1817,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "oline-olsadatter-sather",
+    "firstName": "Oline",
+    "lastName": "Olsadatter Sæther",
+    "sex": "Male",
+    "birth": {
+      "month": 8,
+      "year": 1819,
+      "country": "NO"
+    },
+    "death": {
+      "month": -1,
+      "year": 1894,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "pernille-olsadatter-sather",
+    "firstName": "Pernille",
+    "lastName": "Olsadatter Sæther",
+    "sex": "Female",
+    "birth": {
+      "month": 8,
+      "year": 1821,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "peder-olsen-sather",
+    "firstName": "Peder",
+    "lastName": "Olsen Sæther",
+    "sex": "Male",
+    "birth": {
+      "month": 4,
+      "year": 1825,
+      "country": "NO"
+    },
+    "death": {
+      "month": 6,
+      "year": 1916,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "alis-johannesdatte-aastad-sather",
+    "firstName": "Alis",
+    "lastName": "Johannesdatte Aastad Sæther",
+    "sex": "Female",
+    "birth": {
+      "month": 6,
+      "year": 1830,
+      "country": "NO"
+    },
+    "death": {
+      "month": 8,
+      "year": 1907,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "mathias-johannes-aastad-sather",
+    "firstName": "Mathias",
+    "lastName": "Johannes Aastad Sæther",
+    "sex": "Male",
+    "birth": {
+      "month": 12,
+      "year": 1832,
+      "country": "NO"
+    },
+    "death": {
+      "month": 4,
+      "year": 1917,
+      "country": "NO"
+    }
+  },
+  {
+    "id": "christian-johannesen-aastad-sather",
+    "firstName": "Christian",
+    "lastName": "Johannesen Aastad Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 5,
+      "year": 1837,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "mathia-bjorklien"
+      }
+    ],
+    "children": [
+      "johannes-sather",
+      "clara-sather",
+      "julius-sather",
+      "anton-sather",
+      "ole-sather",
+      "emma-sather",
+      "anna-sather",
+      "matthias-sather"
+    ],
+    "death": {
+      "month": 9,
+      "year": 1915,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mathia-bjorklien",
+    "firstName": "Mathia",
+    "lastName": "Bjørklien",
+    "sex": "Female",
+    "birth": {
+      "month": 8,
+      "year": 1845,
+      "country": "NO"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "christian-johannesen-aastad-sather"
+      }
+    ],
+    "children": [
+      "johannes-sather",
+      "clara-sather",
+      "julius-sather",
+      "anton-sather",
+      "ole-sather",
+      "emma-sather",
+      "anna-sather",
+      "matthias-sather"
+    ],
+    "death": {
+      "month": 9,
+      "year": 1933,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "johannes-sather",
+    "firstName": "Johannes \"John\"",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "clara-sather",
+    "firstName": "Clara",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "julius-sather",
+    "firstName": "Clara",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "anton-sather",
+    "firstName": "Anton",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "ole-sather",
+    "firstName": "Ole",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "emma-sather",
+    "firstName": "Emma",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "anna-sather",
+    "firstName": "Anna",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "death": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "matthias-sather",
+    "firstName": "Matthias",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 12,
+      "year": 1874,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "otillia-sather"
+      }
+    ],
+    "children": [
+      "alma-sather",
+      "mabel-sather",
+      "melvin-sather",
+      "harold-sather",
+      "carl-sather"
+    ],
+    "death": {
+      "month": 12,
+      "year": 1955,
+      "country": "US"
+    }
+  },
+  {
+    "id": "otillia-sather",
+    "firstName": "Otillia",
+    "lastName": "Sather (Berg)",
+    "sex": "Female",
+    "birth": {
+      "month": 1,
+      "year": 1876,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "matthias-sather"
+      }
+    ],
+    "children": [
+      "alma-sather",
+      "mabel-sather",
+      "melvin-sather",
+      "harold-sather",
+      "carl-sather"
+    ],
+    "death": {
+      "month": 2,
+      "year": 1956,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "edwin-garden",
+    "firstName": "Edwin",
+    "lastName": "Garden",
+    "sex": "Male",
+    "birth": {
+      "month": 3,
+      "year": 1885,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1906,
+        "spouse": "mary-garden"
+      }
+    ],
+    "children": [
+      "bernice-sather",
+      "elsie-gunderson"
+    ],
+    "death": {
+      "month": 12,
+      "year": 1965,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mary-garden",
+    "firstName": "Mary",
+    "lastName": "Garden (Ose)",
+    "sex": "Female",
+    "birth": {
+      "month": 4,
+      "year": 1887,
+      "country": "US"
+    },
+    "children": [
+      "bernice-sather",
+      "elsie-gunderson"
+    ],
+    "death": {
+      "month": 10,
+      "year": 1961,
+      "country": "US"
+    }
+  },
+  {
+    "id": "elsie-gunderson",
+    "firstName": "Elsie",
+    "lastName": "Gunderson (Garden)",
+    "sex": "Female",
+    "birth": {
+      "month": 5,
+      "year": 1910,
+      "country": "US"
+    },
+    "death": {
+      "month": 3,
+      "year": 1938,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "alma-sather",
+    "firstName": "Alma",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": 9,
+      "year": 1896,
+      "country": "US"
+    },
+    "death": {
+      "month": 1,
+      "year": 1975,
+      "country": "US"
+    }
+  },
+  {
+    "id": "mabel-sather",
+    "firstName": "Mabel",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": 4,
+      "year": 1903,
+      "country": "US"
+    },
+    "death": {
+      "month": 12,
+      "year": 1918,
+      "country": "US"
+    }
+  },
+  {
+    "id": "melvin-sather",
+    "firstName": "Melvin",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 11,
+      "year": 1909,
+      "country": "US"
+    },
+    "death": {
+      "month": 3,
+      "year": 1989,
+      "country": "US"
+    }
+  },
+  {
+    "id": "harold-sather",
+    "firstName": "Harold",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 2,
+      "year": 1914,
+      "country": "US"
+    },
+    "death": {
+      "month": 1,
+      "year": 2002,
+      "country": "US"
+    }
+  },
+  {
+    "id": "carl-sather",
+    "firstName": "Carl",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 12,
+      "year": 1900,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "bernice-sather"
+      }
+    ],
+    "children": [
+      "carlton-sather",
+      "marilyn-sather",
+      "erling-sather",
+      "sylvia-sather",
+      "allen-sather",
+      "corrine-sather",
+      "ronald-sather"
+    ],
+    "death": {
+      "month": 9,
+      "year": 1994,
+      "country": "US"
+    }
+  },
+  {
+    "id": "bernice-sather",
+    "firstName": "Bernice",
+    "lastName": "Sather (Garden)",
+    "sex": "Female",
+    "birth": {
+      "month": 1,
+      "year": 1908,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "carl-sather"
+      }
+    ],
+    "children": [
+      "carlton-sather",
+      "marilyn-sather",
+      "erling-sather",
+      "sylvia-sather",
+      "allen-sather",
+      "corrine-sather",
+      "ronald-sather"
+    ],
+    "death": {
+      "month": 3,
+      "year": 2010,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "genelle-sather",
+    "firstName": "Genelle",
+    "lastName": "Sather (Juve)",
+    "sex": "Male",
+    "birth": {
+      "month": 4,
+      "year": 1941,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1960,
+        "spouse": "allen-sather"
+      }
+    ],
+    "children": [
+      "brenda-sather",
+      "ryan-sather",
+      "michael-sather"
+    ]
+  },
+  {
+    "id": "allen-sather",
+    "firstName": "Allen",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 4,
+      "year": 1942,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1960,
+        "spouse": "genelle-sather"
+      }
+    ],
+    "children": [
+      "brenda-sather",
+      "ryan-sather",
+      "michael-sather"
+    ]
+  },
+  {
+    "id": "carlton-sather",
+    "firstName": "Carlton",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 9,
+      "year": 1931,
+      "country": "US"
+    },
+    "death": {
+      "month": 6,
+      "year": 2007,
+      "country": "US"
+    }
+  },
+  {
+    "id": "marilyn-sather",
+    "firstName": "Carlton",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": 3,
+      "year": 1933,
+      "country": "US"
+    },
+    "death": {
+      "month": 3,
+      "year": 2012,
+      "country": "US"
+    }
+  },
+  {
+    "id": "erling-sather",
+    "firstName": "Erling (Mick)",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 1,
+      "year": 1935,
+      "country": "US"
+    },
+    "death": {
+      "month": 1,
+      "year": 2020,
+      "country": "US"
+    }
+  },
+  {
+    "id": "sylvia-sather",
+    "firstName": "Sylvia",
+    "lastName": "Burtness (Sather)",
+    "sex": "Female",
+    "birth": {
+      "month": 2,
+      "year": 1937,
+      "country": "US"
+    },
+    "death": {
+      "month": 6,
+      "year": 2013,
+      "country": "US"
+    }
+  },
+  {
+    "id": "corrine-sather",
+    "firstName": "Corrine",
+    "lastName": "Nokken (Sather)",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "ronald-sather",
+    "firstName": "Ronald",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+
+  {
+    "id": "brenda-sather",
+    "firstName": "Brenda",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    }
+  },
+  {
+    "id": "ryan-sather",
+    "firstName": "Ryan",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "sonia-sather"
+      }
+    ],
+    "children": [
+      "lauren-sather",
+      "rachel-sather",
+      "matthew-sather"
+    ]
+  },
+  {
+    "id": "sonia-sather",
+    "firstName": "Sonia",
+    "lastName": "Sather (Albertson)",
+    "sex": "Male",
+    "birth": {
+      "month": -1,
+      "year": -1,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "ryan-sather"
+      }
+    ],
+    "children": [
+      "lauren-sather",
+      "rachel-sather",
+      "matthew-sather"
+    ]
+  },
+  {
+    "id": "michael-sather",
+    "firstName": "Michael",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 1,
+      "year": 1970,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1994,
+        "spouse": "leigha-sather"
+      }
+    ],
+    "children": [
+      "william-sather",
+      "benjamin-sather",
+      "jonathan-sather"
+    ]
+  },
+  {
+    "id": "leigha-sather",
+    "firstName": "Leigha",
+    "lastName": "Sather (Sparks)",
+    "sex": "Female",
+    "birth": {
+      "month": 8,
+      "year": 1971,
+      "country": "US"
+    },
+    "marriages": [
+      {
+        "year": 1994,
+        "spouse": "michael-sather"
+      }
+    ],
+    "children": [
+      "william-sather",
+      "benjamin-sather",
+      "jonathan-sather"
+    ]
+  },
+
+  {
+    "id": "lauren-sather",
+    "firstName": "Lauren",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": 12,
+      "year": 1996,
+      "country": "US"
+    }
+  },
+  {
+    "id": "rachel-sather",
+    "firstName": "Rachel",
+    "lastName": "Sather",
+    "sex": "Female",
+    "birth": {
+      "month": 12,
+      "year": 1996,
+      "country": "US"
+    }
+  },
+  {
+    "id": "matthew-sather",
+    "firstName": "Matthew",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 12,
+      "year": 1996,
+      "country": "US"
+    }
+  },
+  {
+    "id": "william-sather",
+    "firstName": "William",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 1,
+      "year": 2000,
+      "country": "US"
+    }
+  },
+  {
+    "id": "benjamin-sather",
+    "firstName": "Benjamin",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 5,
+      "year": 2002,
+      "country": "US"
+    }
+  },
+  {
+    "id": "jonathan-sather",
+    "firstName": "Jonathan",
+    "lastName": "Sather",
+    "sex": "Male",
+    "birth": {
+      "month": 5,
+      "year": 2004,
+      "country": "US"
+    }
+  }
+]
