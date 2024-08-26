@@ -30,7 +30,7 @@ export default function FamilyTree(props: FamilyTreeProps) {
       panOnDrag
       zoomOnScroll
     >
-      <FamilyPanel setFamily={setFamily} />
+      <FamilyPanel family={family} setFamily={setFamily} />
       <Background />
       <Controls />
     </ReactFlow>
