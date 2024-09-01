@@ -1,22 +1,28 @@
 import FamilyTree from "@/app/(pages)/tree/FamilyTree";
 import { useMemo } from "react";
-import { getPersonByFamily } from "@/family";
+import { getPersonsByFamily, getPersons } from "@/family";
 import { generateFamilyTree } from "@/app/(pages)/tree/generate";
 
 export default function TreePage() {
+  const { nodes, edges } = useMemo(() => {
+    const persons = getPersons();
+    return generateFamilyTree(persons);
+  }, []);
+
   const { nodes: satherNodes, edges: satherEdges } = useMemo(() => {
-    const persons = getPersonByFamily("Sather");
+    const persons = getPersonsByFamily("Sather");
     return generateFamilyTree(persons);
   }, []);
 
   const { nodes: juveNodes, edges: juveEdges } = useMemo(() => {
-    const persons = getPersonByFamily("Juve");
+    const persons = getPersonsByFamily("Juve");
     return generateFamilyTree(persons);
   }, []);
 
   return (
     <div style={{ width: "100%", height: "90vh" }}>
       <FamilyTree
+        all={{ nodes, edges }}
         sather={{ nodes: satherNodes, edges: satherEdges }}
         juve={{ nodes: juveNodes, edges: juveEdges }}
       />

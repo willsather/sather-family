@@ -16,13 +16,14 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/ui/Popover";
 import { Panel, useReactFlow } from "@xyflow/react";
 import { ArrowDownIcon, CheckIcon } from "@radix-ui/react-icons";
 import { Family, familySchema } from "@/family";
+import { z } from "zod";
 
 interface FamilyPanelProps {
-  family: Family;
-  setFamily: (family: Family) => void;
+  family: Family | "All";
+  setFamily: (family: Family | "All") => void;
 }
 
-const families = ["Sather", "Juve"];
+const options = ["All", "Sather", "Juve"];
 
 export default function FamilyPanel({ family, setFamily }: FamilyPanelProps) {
   const { fitView } = useReactFlow();
@@ -31,7 +32,7 @@ export default function FamilyPanel({ family, setFamily }: FamilyPanelProps) {
   return (
     <Panel position="top-right">
       <Popover open={open} onOpenChange={setOpen}>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 rounded bg-white p-2">
           <p className="text-muted-foreground text-sm text-gray-500">
             Select a family...
           </p>
@@ -48,23 +49,31 @@ export default function FamilyPanel({ family, setFamily }: FamilyPanelProps) {
           </PopoverTrigger>
         </div>
 
-        <PopoverContent className="w-[200px] p-0">
+        <PopoverContent className="w-[200px] bg-white p-0">
           <Command>
             <CommandInput placeholder="Search family..." />
 
             <CommandList>
               <CommandEmpty>No family found.</CommandEmpty>
               <CommandGroup>
-                {families.map((familyName) => (
+                {options.map((familyName) => (
                   <CommandItem
                     key={familyName}
                     value={familyName}
                     onSelect={(val) => {
-                      setFamily(familySchema.parse(val));
+                      const parsedValue = z
+                        .union([z.literal("All"), familySchema])
+                        .parse(val);
+
+                      setFamily(parsedValue);
+
+                      // fit the family tree to current view
                       setTimeout(
                         async () =>
                           await fitView({ padding: 0.5, duration: 1000 })
                       );
+
+                      // close the panel selector
                       setOpen(false);
                     }}
                   >

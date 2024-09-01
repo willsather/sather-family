@@ -8,7 +8,15 @@ const SPOUSE_SPACING = NODE_WIDTH + 20; // space between spouses
 
 const createGraphLayout = (nodes: Node[], edges: Edge[]) => {
   const g = new dagre.graphlib.Graph();
-  g.setGraph({});
+
+  const layoutOptions = {
+    rankdir: "TB", // direction for the layout: TB (top-bottom), LR (left-right)
+    ranksep: 100, // vertical separation between nodes
+    nodesep: 200, // horizontal separation between nodes
+  };
+
+  g.setGraph(layoutOptions);
+
   g.setDefaultEdgeLabel(() => ({}));
 
   nodes.forEach((node) => {

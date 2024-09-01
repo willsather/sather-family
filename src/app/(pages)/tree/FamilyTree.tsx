@@ -8,6 +8,10 @@ import { Family } from "@/family";
 import FamilyPanel from "@/app/(pages)/tree/FamilyPanel";
 
 interface FamilyTreeProps {
+  all: {
+    nodes: Node[];
+    edges: Edge[];
+  };
   sather: {
     nodes: Node[];
     edges: Edge[];
@@ -19,12 +23,36 @@ interface FamilyTreeProps {
 }
 
 export default function FamilyTree(props: FamilyTreeProps) {
-  const [family, setFamily] = useState<Family>("Sather");
+  const [family, setFamily] = useState<Family | "All">("All");
+
+  const getNodes = () => {
+    if (family === "Sather") {
+      return props.sather.nodes;
+    }
+
+    if (family === "Juve") {
+      return props.juve.nodes;
+    }
+
+    return props.all.nodes;
+  };
+
+  const getEdges = () => {
+    if (family === "Sather") {
+      return props.sather.edges;
+    }
+
+    if (family === "Juve") {
+      return props.juve.edges;
+    }
+
+    return props.all.edges;
+  };
 
   return (
     <ReactFlow
-      nodes={family === "Sather" ? props.sather.nodes : props.juve.nodes}
-      edges={family === "Sather" ? props.sather.edges : props.juve.edges}
+      nodes={getNodes()}
+      edges={getEdges()}
       fitView
       fitViewOptions={{ padding: 0.5 }}
       panOnDrag

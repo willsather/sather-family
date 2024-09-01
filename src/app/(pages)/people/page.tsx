@@ -39,6 +39,10 @@ export default function PeoplePage() {
           </div>
         </div>
 
+        <div className="my-3 text-gray-400">
+          <b>Total:</b> {filteredPeople.length}
+        </div>
+
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPeople.map((person) => (
             <PersonCard key={person.id} person={person} />
