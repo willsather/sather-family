@@ -276,112 +276,112 @@
   {
     "id": "johannes-sather",
     "firstName": "Johannes \"John\"",
-    "lastName": "Sather",
+    "lastName": "Sæther",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1869,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1945,
       "country": "US"
     }
   },
   {
     "id": "clara-sather",
     "firstName": "Clara",
-    "lastName": "Sather",
+    "lastName": "Sæther",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 2,
+      "year": 1871,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1961,
       "country": "US"
     }
   },
   {
     "id": "julius-sather",
-    "firstName": "Clara",
-    "lastName": "Sather",
+    "firstName": "Julius",
+    "lastName": "Sæther",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 12,
+      "year": 1872,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1902,
       "country": "US"
     }
   },
   {
     "id": "anton-sather",
     "firstName": "Anton",
-    "lastName": "Sather",
+    "lastName": "Sæther",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 1,
+      "year": 1877,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1942,
       "country": "US"
     }
   },
   {
     "id": "ole-sather",
     "firstName": "Ole",
-    "lastName": "Sather",
+    "lastName": "Sæther",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 3,
+      "year": 1879,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1926,
       "country": "US"
     }
   },
   {
     "id": "emma-sather",
     "firstName": "Emma",
-    "lastName": "Sather",
+    "lastName": "Sæther",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 1,
+      "year": 1882,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 11,
+      "year": 1903,
       "country": "US"
     }
   },
   {
     "id": "anna-sather",
     "firstName": "Anna",
-    "lastName": "Sather",
+    "lastName": "Sæther",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 1,
+      "year": 1885,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 3,
+      "year": 1922,
       "country": "US"
     }
   },
@@ -416,7 +416,7 @@
   },
   {
     "id": "otillia-sather",
-    "firstName": "Otillia",
+    "firstName": "Otillia \"Tilla\" ",
     "lastName": "Sather (Berg)",
     "sex": "Female",
     "birth": {
@@ -573,7 +573,7 @@
   },
   {
     "id": "carl-sather",
-    "firstName": "Carl",
+    "firstName": "Carl John",
     "lastName": "Sather",
     "sex": "Male",
     "birth": {
@@ -583,7 +583,7 @@
     },
     "marriages": [
       {
-        "year": -1,
+        "year": 1930,
         "spouse": "bernice-sather"
       }
     ],
@@ -614,7 +614,7 @@
     },
     "marriages": [
       {
-        "year": -1,
+        "year": 1930,
         "spouse": "carl-sather"
       }
     ],
@@ -700,12 +700,12 @@
   },
   {
     "id": "corrine-sather",
-    "firstName": "Corrine",
+    "firstName": "Corrine \"Connie\"",
     "lastName": "Nokken (Sather)",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 2,
+      "year": 1947,
       "country": "US"
     }
   },
@@ -715,8 +715,8 @@
     "lastName": "Sather",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 9,
+      "year": 1948,
       "country": "US"
     }
   }

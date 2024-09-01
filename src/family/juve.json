@@ -511,13 +511,13 @@
     "lastName": "Bergseng",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 4,
+      "year": 1874,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 1,
+      "year": 1934,
       "country": "US"
     }
   },
@@ -527,8 +527,8 @@
     "lastName": "Bergseng",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 10,
+      "year": 1878,
       "country": "US"
     },
     "death": {
@@ -543,8 +543,8 @@
     "lastName": "Bergseng",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1880,
       "country": "US"
     },
     "death": {
@@ -559,13 +559,13 @@
     "lastName": "Bergseng",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 2,
+      "year": 1883,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 10,
+      "year": 1940,
       "country": "US"
     }
   },
@@ -576,13 +576,13 @@
     "lastName": "Juve",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 2,
+      "year": 1910,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 1,
+      "year": 1924,
       "country": "US"
     }
   },
@@ -592,19 +592,19 @@
     "lastName": "Juve",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 5,
+      "year": 1924,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 9,
+      "year": 1991,
       "country": "US"
     }
   },
   {
     "id": "gordon-juve",
-    "firstName": "Gordon",
+    "firstName": "Gordon Kenneth",
     "lastName": "Juve",
     "sex": "Male",
     "birth": {
@@ -656,33 +656,33 @@
   },
   {
     "id": "sid-morken",
-    "firstName": "Sid",
+    "firstName": "Sidney \"Sid\" T.",
     "lastName": "Morken",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 10,
+      "year": 1914,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 7,
+      "year": 1996,
       "country": "US"
     }
   },
   {
     "id": "alvin-morken",
-    "firstName": "Alvin",
+    "firstName": "Alvin Merle",
     "lastName": "Morken",
     "sex": "Male",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 12,
+      "year": 1916,
       "country": "US"
     },
     "death": {
-      "month": -1,
-      "year": -1,
+      "month": 8,
+      "year": 1985,
       "country": "US"
     }
   },
@@ -693,8 +693,8 @@
     "lastName": "Rasmussen (Juve)",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 4,
+      "year": 1944,
       "country": "US"
     }
   }

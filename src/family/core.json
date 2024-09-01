@@ -83,8 +83,8 @@
     "lastName": "Sather (Albertson)",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 12,
+      "year": 1966,
       "country": "US"
     },
     "marriages": [
@@ -221,8 +221,8 @@
     "lastName": "Sather",
     "sex": "Female",
     "birth": {
-      "month": -1,
-      "year": -1,
+      "month": 10,
+      "year": 1996,
       "country": "US"
     },
     "marriages": [{
