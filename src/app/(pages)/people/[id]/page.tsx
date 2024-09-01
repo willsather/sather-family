@@ -17,24 +17,37 @@ export default function PersonPage({ params }: { params?: { id?: string } }) {
   return (
     <div className="my-8">
       <div className="p-6">
-        <h2 className="mb-3 text-xl font-semibold text-gray-900">
-          {person.firstName} {person.lastName}
-        </h2>
+        <div className="flex justify-between">
+          <div className="">
+            <h2 className="mb-3 text-xl font-semibold text-gray-900">
+              {person.firstName} {person.lastName}
+            </h2>
 
-        <p
-          className={cn("mb-1 flex items-center gap-2 text-gray-600", {
-            "text-blue-400": person.sex === "Male",
-            "text-pink-400": person.sex === "Female",
-          })}
-        >
-          <PersonIcon />
-          {person.sex}
-        </p>
+            <p
+              className={cn("mb-1 flex items-center gap-2 text-gray-600", {
+                "text-blue-400": person.sex === "Male",
+                "text-pink-400": person.sex === "Female",
+              })}
+            >
+              <PersonIcon />
+              {person.sex}
+            </p>
 
-        <p className="mb-1 text-gray-600">
-          <b>Born:</b> {getMonth(person.birth.month)} {person.birth.year}{" "}
-          {getCountryEmoji(person.birth.country)}
-        </p>
+            <p className="mb-1 text-gray-600">
+              <b>Born:</b> {getMonth(person.birth.month)} {person.birth.year}{" "}
+              {getCountryEmoji(person.birth.country)}
+            </p>
+          </div>
+        </div>
+
+        <h3 className="mb-3 mt-8 text-xl font-semibold text-gray-900">
+          Picture
+        </h3>
+        <img
+          src={person.picture}
+          alt={person.id}
+          className="md:h-1/6 md:w-1/6"
+        />
 
         {person.death && (
           <p className="text-gray-600">

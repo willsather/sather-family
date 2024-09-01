@@ -4,15 +4,11 @@ export default function TodoPage() {
   const people = getPersons();
 
   const peopleWhoNeedImages = people
-    .filter((person) => person.image == null)
+    .filter((person) => person.picture == null)
     .map((person) => person.id);
 
   const peopleWhoNeedBirthMonths = people
     .filter((person) => person.birth.month <= 0)
-    .map((person) => person.id);
-
-  const peopleWhoNeedBirthYears = people
-    .filter((person) => person.birth.year <= 0)
     .map((person) => person.id);
 
   const peopleWhoNeedDeathMonths = people
@@ -47,19 +43,6 @@ export default function TodoPage() {
         <pre className="overflow-x-auto rounded border border-gray-200 bg-white p-4">
           <code className="font-mono text-sm text-gray-800">
             {JSON.stringify(peopleWhoNeedBirthMonths, null, 2)}
-          </code>
-        </pre>
-      </div>
-
-      <div>
-        <div className="mb-2 flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-gray-700">
-            Missing Birth Months
-          </h2>
-        </div>
-        <pre className="overflow-x-auto rounded border border-gray-200 bg-white p-4">
-          <code className="font-mono text-sm text-gray-800">
-            {JSON.stringify(peopleWhoNeedBirthYears, null, 2)}
           </code>
         </pre>
       </div>

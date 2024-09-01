@@ -186,6 +186,7 @@
     "firstName": "William",
     "lastName": "Sather",
     "sex": "Male",
+    "picture": "/pictures/core/william-sather.jpeg",
     "birth": {
       "month": 1,
       "year": 2000,
@@ -197,6 +198,7 @@
     "firstName": "Benjamin",
     "lastName": "Sather",
     "sex": "Male",
+    "picture": "/pictures/core/benjamin-sather.jpeg",
     "birth": {
       "month": 5,
       "year": 2002,
@@ -208,6 +210,7 @@
     "firstName": "Jonathan",
     "lastName": "Sather",
     "sex": "Male",
+    "picture": "/pictures/core/jonathan-sather.jpeg",
     "birth": {
       "month": 5,
       "year": 2004,
