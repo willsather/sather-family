@@ -40,14 +40,18 @@ export default function PersonPage({ params }: { params?: { id?: string } }) {
           </div>
         </div>
 
-        <h3 className="mb-3 mt-8 text-xl font-semibold text-gray-900">
-          Picture
-        </h3>
-        <img
-          src={person.picture}
-          alt={person.id}
-          className="md:h-1/6 md:w-1/6"
-        />
+        {person.picture != null && (
+          <>
+            <h3 className="mb-3 mt-8 text-xl font-semibold text-gray-900">
+              Picture
+            </h3>
+            <img
+              src={person.picture}
+              alt={person.id}
+              className="md:h-1/6 md:w-1/6"
+            />
+          </>
+        )}
 
         {person.death && (
           <p className="text-gray-600">

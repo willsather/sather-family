@@ -9,7 +9,7 @@ export default function HomePage() {
           Sather Family
         </h1>
 
-        <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-12">
+        <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-6 sm:gap-6 lg:grid-cols-12">
           {pages.map((page) => (
             <Link
               key={page.name}
