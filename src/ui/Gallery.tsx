@@ -44,7 +44,7 @@ export default function Gallery({ pictures }: { pictures: Photo[] }) {
   const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
 
   return (
-    <div className="mx-auto grid max-w-7xl grid-cols-3 gap-4 p-4">
+    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 p-4 sm:grid-cols-3">
       {pictures.map((photo) => (
         <div
           key={photo.src}

@@ -20,7 +20,7 @@ export const personSchema = z.object({
   firstName: z.string(),
   lastName: z.string(),
   sex: sexSchema,
-  picture: z.string().optional(),
+  pictures: z.array(z.string()).optional(),
   birth: dateSchema,
   death: dateSchema.optional(),
   marriages: z

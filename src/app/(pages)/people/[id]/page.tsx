@@ -4,6 +4,7 @@ import { getMonth } from "@/utils/getMonth";
 import { PersonIcon } from "@radix-ui/react-icons";
 import { cn } from "@/utils/cn";
 import PersonCard from "@/ui/PersonCard";
+import Gallery from "@/ui/Gallery";
 
 export default function PersonPage({ params }: { params?: { id?: string } }) {
   if (params?.id == null) {
@@ -47,16 +48,20 @@ export default function PersonPage({ params }: { params?: { id?: string } }) {
           </p>
         )}
 
-        {person.picture != null && (
+        {person.pictures != null && (
           <>
             <h3 className="mb-3 mt-8 text-xl font-semibold text-gray-900">
-              Picture
+              {person.pictures.length === 1 ? "Picture" : "Pictures"}
             </h3>
-            <img
-              src={person.picture}
-              alt={person.id}
-              className="md:h-1/6 md:w-1/6"
-            />
+
+            <div className="flex flex-col items-center gap-3 md:flex-row">
+              <Gallery
+                pictures={person.pictures.map((picture) => ({
+                  src: picture,
+                  alt: person.id,
+                }))}
+              />
+            </div>
           </>
         )}
 

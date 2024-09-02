@@ -32,7 +32,9 @@ export function getSomePersons(ids: string[]): Person[] {
 export function getPersonsInPhoto(photoSrc: string): Person[] {
   const people = getPersons();
 
-  return people.filter((person) => person.picture === photoSrc);
+  return people.filter(
+    (person) => person?.pictures != null && person.pictures.includes(photoSrc)
+  );
 }
 
 function combinePeople(...people: Person[][]): Person[] {

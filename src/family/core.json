@@ -104,7 +104,7 @@
     "firstName": "Michael",
     "lastName": "Sather",
     "sex": "Male",
-    "picture": "/pictures/core/michael-leigha-sather.jpeg",
+    "pictures": ["/pictures/core/michael-leigha-sather.jpeg"],
     "birth": {
       "month": 1,
       "year": 1970,
@@ -127,7 +127,7 @@
     "firstName": "Leigha",
     "lastName": "Sather (Sparks)",
     "sex": "Female",
-    "picture": "/pictures/core/michael-leigha-sather.jpeg",
+    "pictures": ["/pictures/core/michael-leigha-sather.jpeg"],
     "birth": {
       "month": 8,
       "year": 1971,
@@ -188,7 +188,7 @@
     "firstName": "William",
     "lastName": "Sather",
     "sex": "Male",
-    "picture": "/pictures/core/william-sather.jpeg",
+    "pictures": ["/pictures/core/william-sather.jpeg"],
     "birth": {
       "month": 1,
       "year": 2000,
@@ -200,7 +200,7 @@
     "firstName": "Benjamin",
     "lastName": "Sather",
     "sex": "Male",
-    "picture": "/pictures/core/benjamin-sather.jpeg",
+    "pictures": ["/pictures/core/benjamin-sather.jpeg"],
     "birth": {
       "month": 5,
       "year": 2002,
@@ -212,7 +212,7 @@
     "firstName": "Jonathan",
     "lastName": "Sather",
     "sex": "Male",
-    "picture": "/pictures/core/jonathan-sather.jpeg",
+    "pictures": ["/pictures/core/jonathan-sather.jpeg"],
     "birth": {
       "month": 5,
       "year": 2004,

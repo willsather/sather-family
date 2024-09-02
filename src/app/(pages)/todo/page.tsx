@@ -4,7 +4,7 @@ export default function TodoPage() {
   const people = getPersons();
 
   const peopleWhoNeedImages = people
-    .filter((person) => person.picture == null)
+    .filter((person) => person.pictures == null)
     .map((person) => person.id);
 
   const peopleWhoNeedBirthMonths = people
