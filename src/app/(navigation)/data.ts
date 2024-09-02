@@ -28,7 +28,7 @@ export const pages = [
     name: "Gallery",
     href: "/gallery",
     icon: CameraIcon,
-    description: "Browse all family members",
+    description: "Explore pictures of family members",
     color: "from-purple-400 to-purple-600",
     size: "sm:col-span-4 sm:row-span-1 lg:col-span-4 lg:row-span-1",
   },

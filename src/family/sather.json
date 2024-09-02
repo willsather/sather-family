@@ -213,6 +213,7 @@
     "firstName": "Christian",
     "lastName": "Johannesen Aastad Sather",
     "sex": "Male",
+    "picture": "/pictures/sather/christian-mathea-sather.jpeg",
     "birth": {
       "month": 5,
       "year": 1837,
@@ -245,6 +246,7 @@
     "firstName": "Mathia",
     "lastName": "Bjørklien",
     "sex": "Female",
+    "picture": "/pictures/sather/christian-mathea-sather.jpeg",
     "birth": {
       "month": 8,
       "year": 1845,
@@ -278,6 +280,7 @@
     "firstName": "Johannes \"John\"",
     "lastName": "Sæther",
     "sex": "Male",
+    "picture": "/pictures/sather/christian-mathea-sather-family.jpeg",
     "birth": {
       "month": 8,
       "year": 1869,
@@ -294,6 +297,7 @@
     "firstName": "Clara",
     "lastName": "Sæther",
     "sex": "Female",
+    "picture": "/pictures/sather/christian-mathea-sather-family.jpeg",
     "birth": {
       "month": 2,
       "year": 1871,
@@ -310,6 +314,7 @@
     "firstName": "Julius",
     "lastName": "Sæther",
     "sex": "Male",
+    "picture": "/pictures/sather/christian-mathea-sather-family.jpeg",
     "birth": {
       "month": 12,
       "year": 1872,
@@ -326,6 +331,7 @@
     "firstName": "Anton",
     "lastName": "Sæther",
     "sex": "Male",
+    "picture": "/pictures/sather/christian-mathea-sather-family.jpeg",
     "birth": {
       "month": 1,
       "year": 1877,
@@ -342,6 +348,7 @@
     "firstName": "Ole",
     "lastName": "Sæther",
     "sex": "Male",
+    "picture": "/pictures/sather/christian-mathea-sather-family.jpeg",
     "birth": {
       "month": 3,
       "year": 1879,
@@ -358,6 +365,7 @@
     "firstName": "Emma",
     "lastName": "Sæther",
     "sex": "Female",
+    "picture": "/pictures/sather/christian-mathea-sather-family.jpeg",
     "birth": {
       "month": 1,
       "year": 1882,
@@ -374,6 +382,7 @@
     "firstName": "Anna",
     "lastName": "Sæther",
     "sex": "Female",
+    "picture": "/pictures/sather/christian-mathea-sather-family.jpeg",
     "birth": {
       "month": 1,
       "year": 1885,
@@ -390,6 +399,7 @@
     "firstName": "Matthias",
     "lastName": "Sather",
     "sex": "Male",
+    "picture": "/pictures/sather/mathias-otillia-sather.jpeg",
     "birth": {
       "month": 12,
       "year": 1874,
@@ -419,6 +429,7 @@
     "firstName": "Otillia \"Tilla\" ",
     "lastName": "Sather (Berg)",
     "sex": "Female",
+    "picture": "/pictures/sather/mathias-otillia-sather.jpeg",
     "birth": {
       "month": 1,
       "year": 1876,

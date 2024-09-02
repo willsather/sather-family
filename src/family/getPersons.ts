@@ -29,6 +29,12 @@ export function getSomePersons(ids: string[]): Person[] {
   return people.filter((person) => ids.includes(person.id));
 }
 
+export function getPersonsInPhoto(photoSrc: string): Person[] {
+  const people = getPersons();
+
+  return people.filter((person) => person.picture === photoSrc);
+}
+
 function combinePeople(...people: Person[][]): Person[] {
   // remove any duplicate persons
   return Array.from(

@@ -104,7 +104,7 @@
     "firstName": "Michael",
     "lastName": "Sather",
     "sex": "Male",
-    "picture": "/pictures/core/michael-sather.jpeg",
+    "picture": "/pictures/core/michael-leigha-sather.jpeg",
     "birth": {
       "month": 1,
       "year": 1970,
@@ -127,7 +127,7 @@
     "firstName": "Leigha",
     "lastName": "Sather (Sparks)",
     "sex": "Female",
-    "picture": "/pictures/core/leigha-sather.jpeg",
+    "picture": "/pictures/core/michael-leigha-sather.jpeg",
     "birth": {
       "month": 8,
       "year": 1971,

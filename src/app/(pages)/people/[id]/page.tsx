@@ -40,6 +40,13 @@ export default function PersonPage({ params }: { params?: { id?: string } }) {
           </div>
         </div>
 
+        {person.death && (
+          <p className="text-gray-600">
+            <b>Died:</b> {getMonth(person.death.month)} {person.death.year}{" "}
+            {getCountryEmoji(person.death.country)}
+          </p>
+        )}
+
         {person.picture != null && (
           <>
             <h3 className="mb-3 mt-8 text-xl font-semibold text-gray-900">
@@ -51,13 +58,6 @@ export default function PersonPage({ params }: { params?: { id?: string } }) {
               className="md:h-1/6 md:w-1/6"
             />
           </>
-        )}
-
-        {person.death && (
-          <p className="text-gray-600">
-            <b>Died:</b> {getMonth(person.death.month)} {person.death.year}{" "}
-            {getCountryEmoji(person.death.country)}
-          </p>
         )}
 
         {spouses.length > 0 && (

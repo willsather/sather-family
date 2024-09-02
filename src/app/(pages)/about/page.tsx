@@ -11,10 +11,10 @@ export default function AboutPage() {
           data that has been collected is currently is a combination of Sather
           family information, online data, and other sources pieced together.
           There is no guarantee that it is fully accurate, but rather a
-          visualize representation of what is believed to be.
+          visualize representation of what we are most confident of.
           <br />
           <br />
-          TBD Write More...
+          This website is maintained by Will Sather.
         </p>
       </div>
     </div>

@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Dialog, DialogOverlay, DialogContent } from "@/ui/Dialog";
+import { Dialog, DialogContent, DialogOverlay } from "@/ui/Dialog";
+import { getPersonsInPhoto } from "@/family";
 
 export interface Photo {
   src?: string;
@@ -17,11 +18,23 @@ function Lightbox({
   isOpen: boolean;
   onClose: () => void;
 }) {
+  const peopleInPicture = getPersonsInPhoto(src);
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogOverlay />
-      <DialogContent className="bg-white p-10">
+      <DialogContent className="flex-cols items-center justify-center bg-white p-10">
         <img src={src} alt="Lightbox" className="max-h-full max-w-full" />
+
+        {peopleInPicture.map((person) => (
+          <a
+            href={`/people/${person.id}`}
+            key={person.id}
+            className="text-center underline"
+          >
+            {person.firstName} {person.lastName}
+          </a>
+        ))}
       </DialogContent>
     </Dialog>
   );
@@ -32,9 +45,9 @@ export default function Gallery({ pictures }: { pictures: Photo[] }) {
 
   return (
     <div className="mx-auto grid max-w-7xl grid-cols-3 gap-4 p-4">
-      {pictures.map((photo, index) => (
+      {pictures.map((photo) => (
         <div
-          key={index}
+          key={photo.src}
           onClick={() => {
             if (photo?.src != null) {
               setSelectedPhoto(photo.src);
@@ -49,6 +62,7 @@ export default function Gallery({ pictures }: { pictures: Photo[] }) {
           />
         </div>
       ))}
+
       {selectedPhoto && (
         <Lightbox
           src={selectedPhoto}

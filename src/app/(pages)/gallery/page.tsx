@@ -4,9 +4,13 @@ import Gallery from "@/app/(pages)/gallery/Gallery";
 export default function GalleryPage() {
   const people = getPersons();
 
+  // remove duplicate pictures
   const pictures = people
     .filter((person) => person.picture != null)
-    .map((person) => ({ src: person.picture, alt: person.id }));
+    .map((person) => ({ src: person.picture, alt: person.id }))
+    .filter(
+      (obj, index, self) => index === self.findIndex((t) => t.src === obj.src)
+    );
 
   return (
     <div>
