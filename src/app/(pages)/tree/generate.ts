@@ -2,8 +2,8 @@ import dagre from "dagre";
 import { Node, Edge } from "@xyflow/react";
 import { Person } from "@/family";
 
-const NODE_WIDTH = 150;
-const NODE_HEIGHT = 60;
+const NODE_WIDTH = 250;
+const NODE_HEIGHT = 100;
 const SPOUSE_SPACING = NODE_WIDTH + 20; // space between spouses
 
 const createGraphLayout = (nodes: Node[], edges: Edge[]) => {
@@ -11,8 +11,8 @@ const createGraphLayout = (nodes: Node[], edges: Edge[]) => {
 
   const layoutOptions = {
     rankdir: "TB", // direction for the layout: TB (top-bottom), LR (left-right)
-    ranksep: 100, // vertical separation between nodes
-    nodesep: 200, // horizontal separation between nodes
+    ranksep: 150, // vertical separation between nodes
+    nodesep: 275, // horizontal separation between nodes
   };
 
   g.setGraph(layoutOptions);
@@ -71,7 +71,8 @@ export function generateFamilyTree(persons: Person[]): {
     // Create the node for the person
     nodes.push({
       id: nodeId,
-      data: { label: `${person.firstName} ${person.lastName}` },
+      type: "custom",
+      data: { person },
       position: { x: 0, y: 0 }, // Position will be set by Dagre and adjusted later
       style: { width: NODE_WIDTH, height: NODE_HEIGHT },
     });
@@ -79,11 +80,8 @@ export function generateFamilyTree(persons: Person[]): {
     if (spouseId) {
       nodes.push({
         id: spouseId,
-        data: {
-          label: `${personMap.get(spouseId)?.firstName} ${
-            personMap.get(spouseId)?.lastName
-          }`,
-        },
+        type: "custom",
+        data: { person: personMap.get(spouseId) },
         position: { x: 0, y: 0 },
         style: { width: NODE_WIDTH, height: NODE_HEIGHT },
       });

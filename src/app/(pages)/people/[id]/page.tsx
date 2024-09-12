@@ -1,10 +1,20 @@
 import { getCountryEmoji } from "@/utils/getCountryEmoji";
-import { getChildren, getPerson, getSpouses } from "@/family";
+import { getChildren, getPerson, getPersons, getSpouses } from "@/family";
 import { getMonth } from "@/utils/getMonth";
 import { PersonIcon } from "@radix-ui/react-icons";
 import { cn } from "@/utils/cn";
 import PersonCard from "@/ui/PersonCard";
 import Gallery from "@/ui/Gallery";
+
+export const dynamic = "force-static";
+
+export async function generateStaticParams() {
+  const persons = getPersons();
+
+  return persons.map((person) => ({
+    id: person.id,
+  }));
+}
 
 export default function PersonPage({ params }: { params?: { id?: string } }) {
   if (params?.id == null) {

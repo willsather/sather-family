@@ -6,6 +6,7 @@ import { Node, Edge } from "@xyflow/react";
 import { useState } from "react";
 import { Family } from "@/family";
 import FamilyPanel from "@/app/(pages)/tree/FamilyPanel";
+import CustomNode from "@/app/(pages)/tree/CustomNode";
 
 interface FamilyTreeProps {
   all: {
@@ -21,6 +22,8 @@ interface FamilyTreeProps {
     edges: Edge[];
   };
 }
+
+const nodeTypes = { custom: CustomNode };
 
 export default function FamilyTree(props: FamilyTreeProps) {
   const [family, setFamily] = useState<Family | "All">("All");
@@ -53,6 +56,7 @@ export default function FamilyTree(props: FamilyTreeProps) {
     <ReactFlow
       nodes={getNodes()}
       edges={getEdges()}
+      nodeTypes={nodeTypes}
       fitView
       fitViewOptions={{ padding: 0.5 }}
       panOnDrag
