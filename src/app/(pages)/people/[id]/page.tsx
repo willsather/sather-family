@@ -16,7 +16,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function PersonPage({ params }: { params?: { id?: string } }) {
+export default async function PersonPage(props: { params?: Promise<{ id?: string }> }) {
+  const params = await props.params;
   if (params?.id == null) {
     throw new Error("Person not found");
   }
