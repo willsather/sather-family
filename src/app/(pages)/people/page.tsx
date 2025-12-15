@@ -16,7 +16,7 @@ export default function PeoplePage() {
   const filteredPeople = sortedPeople.filter((person) =>
     `${person.firstName} ${person.lastName}`
       .toLowerCase()
-      .includes(searchTerm.toLowerCase())
+      .includes(searchTerm.toLowerCase()),
   );
 
   return (

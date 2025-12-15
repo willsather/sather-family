@@ -70,7 +70,7 @@ export default function FamilyPanel({ family, setFamily }: FamilyPanelProps) {
                       // fit the family tree to current view
                       setTimeout(
                         async () =>
-                          await fitView({ padding: 0.5, duration: 1000 })
+                          await fitView({ padding: 0.5, duration: 1000 }),
                       );
 
                       // close the panel selector
@@ -80,7 +80,7 @@ export default function FamilyPanel({ family, setFamily }: FamilyPanelProps) {
                     <CheckIcon
                       className={cn(
                         "mr-2 h-4 w-4",
-                        family === familyName ? "opacity-100" : "opacity-0"
+                        family === familyName ? "opacity-100" : "opacity-0",
                       )}
                     />
                     {familyName}

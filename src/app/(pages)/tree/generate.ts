@@ -56,7 +56,7 @@ export function generateFamilyTree(persons: Person[]): {
     // Skip if this person is already paired as a spouse
     if (
       spousePairs.some(
-        (pair) => pair.husbandId === nodeId || pair.wifeId === nodeId
+        (pair) => pair.husbandId === nodeId || pair.wifeId === nodeId,
       )
     ) {
       return;

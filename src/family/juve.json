@@ -15,10 +15,7 @@
         "spouse": "tone-kragnes"
       }
     ],
-    "children": [
-      "anna-karine-juve",
-      "mina-augusta-morken"
-    ],
+    "children": ["anna-karine-juve", "mina-augusta-morken"],
     "death": {
       "month": 11,
       "year": 1913,
@@ -41,10 +38,7 @@
         "spouse": "andreas-gulbrandson-kassenborg"
       }
     ],
-    "children": [
-      "anna-karine-juve",
-      "mina-augusta-morken"
-    ],
+    "children": ["anna-karine-juve", "mina-augusta-morken"],
     "death": {
       "month": 5,
       "year": 1921,
@@ -62,10 +56,12 @@
       "year": 1817,
       "country": "NO"
     },
-    "marriages":  [{
-      "year": 1850,
-      "spouse": "gunhild-olavsdatter-kragnes-juve"
-    }],
+    "marriages": [
+      {
+        "year": 1850,
+        "spouse": "gunhild-olavsdatter-kragnes-juve"
+      }
+    ],
     "children": [
       "jorand-juve",
       "mina-kragnes-juve",
@@ -93,10 +89,12 @@
       "year": 1828,
       "country": "NO"
     },
-    "marriages":  [{
-      "year": 1850,
-      "spouse": "ole-johnson-juve"
-    }],
+    "marriages": [
+      {
+        "year": 1850,
+        "spouse": "ole-johnson-juve"
+      }
+    ],
     "children": [
       "jorand-juve",
       "mina-kragnes-juve",
@@ -253,13 +251,13 @@
       "year": 1854,
       "country": "US"
     },
-    "marriages":  [{
-      "year": 1881,
-      "spouse": "anna-karine-juve"
-    }],
-    "children": [
-      "alden-oberlin-juve"
+    "marriages": [
+      {
+        "year": 1881,
+        "spouse": "anna-karine-juve"
+      }
     ],
+    "children": ["alden-oberlin-juve"],
     "death": {
       "month": 4,
       "year": 1884,
@@ -276,13 +274,13 @@
       "year": 1858,
       "country": "US"
     },
-    "marriages":  [{
-      "year": 1881,
-      "spouse": "john-o-juve"
-    }],
-    "children": [
-      "alden-oberlin-juve"
+    "marriages": [
+      {
+        "year": 1881,
+        "spouse": "john-o-juve"
+      }
     ],
+    "children": ["alden-oberlin-juve"],
     "death": {
       "month": 12,
       "year": 1945,
@@ -300,15 +298,13 @@
       "year": 1882,
       "country": "US"
     },
-    "marriages":  [{
-      "year": -1,
-      "spouse": "edna-elenora-juve"
-    }],
-    "children": [
-      "john-peder-juve",
-      "arthur-james-juve",
-      "gordon-juve"
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "edna-elenora-juve"
+      }
     ],
+    "children": ["john-peder-juve", "arthur-james-juve", "gordon-juve"],
     "death": {
       "month": 6,
       "year": 1956,
@@ -325,15 +321,13 @@
       "year": 1889,
       "country": "US"
     },
-    "marriages":  [{
-      "year": -1,
-      "spouse": "alden-oberlin-juve"
-    }],
-    "children": [
-      "john-peder-juve",
-      "arthur-james-juve",
-      "gordon-juve"
+    "marriages": [
+      {
+        "year": -1,
+        "spouse": "alden-oberlin-juve"
+      }
     ],
+    "children": ["john-peder-juve", "arthur-james-juve", "gordon-juve"],
     "death": {
       "month": 4,
       "year": 1981,
@@ -357,9 +351,7 @@
         "spouse": "mina-augusta-morken"
       }
     ],
-    "children": [
-      "martin-adolf-morken"
-    ],
+    "children": ["martin-adolf-morken"],
     "death": {
       "month": 10,
       "year": 1908,
@@ -382,9 +374,7 @@
         "spouse": "torgrim-olson-morken"
       }
     ],
-    "children": [
-      "martin-adolf-morken"
-    ],
+    "children": ["martin-adolf-morken"],
     "death": {
       "month": 3,
       "year": 1937,
@@ -467,11 +457,7 @@
         "spouse": "emma-morken"
       }
     ],
-    "children": [
-      "mildred-juve",
-      "sid-morken",
-      "alvin-morken"
-    ],
+    "children": ["mildred-juve", "sid-morken", "alvin-morken"],
     "death": {
       "month": 4,
       "year": 1977,
@@ -494,11 +480,7 @@
         "spouse": "martin-adolf-morken"
       }
     ],
-    "children": [
-      "mildred-juve",
-      "sid-morken",
-      "alvin-morken"
-    ],
+    "children": ["mildred-juve", "sid-morken", "alvin-morken"],
     "death": {
       "month": 11,
       "year": 1972,
@@ -618,10 +600,7 @@
         "spouse": "mildred-juve"
       }
     ],
-    "children": [
-      "genelle-sather",
-      "diane-rasmussen"
-    ],
+    "children": ["genelle-sather", "diane-rasmussen"],
     "death": {
       "month": 11,
       "year": 1992,
@@ -644,10 +623,7 @@
         "spouse": "gordon-juve"
       }
     ],
-    "children": [
-      "genelle-sather",
-      "diane-rasmussen"
-    ],
+    "children": ["genelle-sather", "diane-rasmussen"],
     "death": {
       "month": 7,
       "year": 2002,

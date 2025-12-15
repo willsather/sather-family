@@ -33,13 +33,13 @@ export function getPersonsInPhoto(photoSrc: string): Person[] {
   const people = getPersons();
 
   return people.filter(
-    (person) => person?.pictures != null && person.pictures.includes(photoSrc)
+    (person) => person?.pictures != null && person.pictures.includes(photoSrc),
   );
 }
 
 function combinePeople(...people: Person[][]): Person[] {
   // remove any duplicate persons
   return Array.from(
-    new Map(people.flat().map((person) => [person.id, person])).values()
+    new Map(people.flat().map((person) => [person.id, person])).values(),
   );
 }

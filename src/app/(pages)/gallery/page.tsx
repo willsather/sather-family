@@ -13,10 +13,10 @@ export default function GalleryPage() {
             src: picture,
             alt: person.id,
           }))
-        : []
+        : [],
     )
     .filter(
-      (obj, index, self) => index === self.findIndex((t) => t.src === obj.src)
+      (obj, index, self) => index === self.findIndex((t) => t.src === obj.src),
     );
 
   return (

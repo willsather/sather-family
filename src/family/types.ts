@@ -28,7 +28,7 @@ export const personSchema = z.object({
       z.object({
         year: z.number(),
         spouse: z.string(),
-      })
+      }),
     )
     .optional(),
   children: z.array(z.string()).optional(),

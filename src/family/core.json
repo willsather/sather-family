@@ -15,11 +15,7 @@
         "spouse": "genelle-sather"
       }
     ],
-    "children": [
-      "brenda-sather",
-      "ryan-sather",
-      "michael-sather"
-    ]
+    "children": ["brenda-sather", "ryan-sather", "michael-sather"]
   },
   {
     "id": "genelle-sather",
@@ -37,11 +33,7 @@
         "spouse": "allen-sather"
       }
     ],
-    "children": [
-      "brenda-sather",
-      "ryan-sather",
-      "michael-sather"
-    ]
+    "children": ["brenda-sather", "ryan-sather", "michael-sather"]
   },
 
   {
@@ -71,11 +63,7 @@
         "spouse": "sonia-sather"
       }
     ],
-    "children": [
-      "lauren-sather",
-      "rachel-sather",
-      "matthew-sather"
-    ]
+    "children": ["lauren-sather", "rachel-sather", "matthew-sather"]
   },
   {
     "id": "sonia-sather",
@@ -93,11 +81,7 @@
         "spouse": "ryan-sather"
       }
     ],
-    "children": [
-      "lauren-sather",
-      "rachel-sather",
-      "matthew-sather"
-    ]
+    "children": ["lauren-sather", "rachel-sather", "matthew-sather"]
   },
   {
     "id": "michael-sather",
@@ -116,11 +100,7 @@
         "spouse": "leigha-sather"
       }
     ],
-    "children": [
-      "william-sather",
-      "benjamin-sather",
-      "jonathan-sather"
-    ]
+    "children": ["william-sather", "benjamin-sather", "jonathan-sather"]
   },
   {
     "id": "leigha-sather",
@@ -139,11 +119,7 @@
         "spouse": "michael-sather"
       }
     ],
-    "children": [
-      "william-sather",
-      "benjamin-sather",
-      "jonathan-sather"
-    ]
+    "children": ["william-sather", "benjamin-sather", "jonathan-sather"]
   },
 
   {
@@ -178,10 +154,12 @@
       "year": 1996,
       "country": "US"
     },
-    "marriages": [{
-      "year": 2023,
-      "spouse": "morgan-sather"
-    }]
+    "marriages": [
+      {
+        "year": 2023,
+        "spouse": "morgan-sather"
+      }
+    ]
   },
   {
     "id": "william-sather",
@@ -230,9 +208,11 @@
       "year": 1996,
       "country": "US"
     },
-    "marriages": [{
-      "year": 2023,
-      "spouse": "matthew-sather"
-    }]
+    "marriages": [
+      {
+        "year": 2023,
+        "spouse": "matthew-sather"
+      }
+    ]
   }
 ]

@@ -480,10 +480,7 @@
         "spouse": "mary-garden"
       }
     ],
-    "children": [
-      "bernice-sather",
-      "elsie-gunderson"
-    ],
+    "children": ["bernice-sather", "elsie-gunderson"],
     "death": {
       "month": 12,
       "year": 1965,
@@ -500,10 +497,7 @@
       "year": 1887,
       "country": "US"
     },
-    "children": [
-      "bernice-sather",
-      "elsie-gunderson"
-    ],
+    "children": ["bernice-sather", "elsie-gunderson"],
     "death": {
       "month": 10,
       "year": 1961,
